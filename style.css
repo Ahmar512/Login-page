@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;500;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+
+.containers{
+    background-color: #C3ACD0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cards{
+    background-color: #F7EFE5;
+    width: 300px;
+    height: 350px;
+    border-radius: 24px ;
+}
+.cards .title{
+    height: 80px;
+    background-color: #7743DB;
+    color: #F7EFE5;
+    font-size: 34px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 24px 24px 0 0;
+}
+.cards form{
+    padding: 30px 20px 25px 20px;
+}
+.cards form .row{
+    display: flex;
+    height: 45px;
+    background-color: #7743DB;
+    margin-bottom: 15px;
+    border-radius: 18px;
+}
+.cards form .row input{
+    height: 100%;
+    width: 100%;
+    border-radius: 18px 0px 18px 0px;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+}
+.cards form .submit{
+    height: 45px;
+
+}
+.cards form .submit input{
+    height: 100%;
+    width: 100%;
+    border-radius: 18px;
+    border: none;
+    font-weight: 500;
+    font-size: 25px;
+    background-color: #7743DB;
+    color: #FFFBF5;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.cards form .row .image{
+    height: 45px;
+    width: 45px;
+    display: flex;
+    border-radius: 18px;
+}
+img{
+    margin: 10px;
+    border-radius: 18px;
+}
+.singup{
+    display: flex;
+    justify-content: center;
+}
+.cards form .submit input:hover{
+    background-color: #C3ACD0;
+}
+.singup a{
+    text-decoration: none;
+}
+.singup a:hover{
+    text-decoration: underline;
+}
+.forgetpass a{
+    text-decoration: none;
+}
+.forgetpass a:hover{
+    text-decoration: underline;
+}
+
